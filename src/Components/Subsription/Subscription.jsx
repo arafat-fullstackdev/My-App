@@ -8,7 +8,7 @@ const Subscription = () => {
     let amount = '124.23';
   return (
     <div className='Subscription'>
-        <h1 className='date'>{date.toISOString}</h1>
+        <div className='date'>{date.toISOString()}</div>
         <h2 className='.Subscription_title'>{title}</h2>
         <div className='.Subscription_price'>{amount}</div>
     </div>
