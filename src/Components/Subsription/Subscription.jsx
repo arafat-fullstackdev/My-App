@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Subscription.css';
 
 const Subscription = () => {
 
@@ -8,10 +9,10 @@ const Subscription = () => {
   return (
     <div className='Subscription'>
         <h1 className='date'>{date.toISOString}</h1>
-        <h2>{title}</h2>
-        <p>{amount}</p>
+        <h2 className='.Subscription_title'>{title}</h2>
+        <div className='.Subscription_price'>{amount}</div>
     </div>
   )
 }
 
-export default Subscription
+export default Subscription;
