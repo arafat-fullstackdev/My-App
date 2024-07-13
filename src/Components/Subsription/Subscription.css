@@ -22,3 +22,18 @@ h2{
     flex:1;
     flex-flow: column-reverse;
 }
+.Subscription h2{
+    color:darkslateblue;
+    font-size: 1rem;
+    flex: 1;
+    margin: 0 1rem;
+    color: whitesmoke;
+}
+.Subscription_price{
+    font-size: 1rem;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: darksalmon;
+    padding: 0.5rem;
+    border-radius: 12px;
+}

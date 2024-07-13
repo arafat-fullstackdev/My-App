@@ -1,18 +1,16 @@
-import React from 'react';
-import './Subscription.css';
+import "./Subscription.css";
 
-const Subscription = () => {
+ function Subscription(props){
 
-    let date= (new Date('2024','06','29'));
-    let title = "Monthly Subscription";
-    let amount = '124.23';
-  return (
-    <div className='Subscription'>
-        <div className='date'>{date.toISOString()}</div>
-        <h2 className='.Subscription_title'>{title}</h2>
-        <div className='.Subscription_price'>{amount}</div>
-    </div>
-  )
-}
+       return(
+        <div className="subscription">
+          <div>{props.date.toISOString()}</div>
+          <h2 className="subscription_title">{props.title}</h2>
+          <div className="subscription_price">{props.amount}</div>
 
-export default Subscription;
+        </div>
+
+       )
+ }
+
+ export default Subscription;
